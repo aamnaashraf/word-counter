@@ -1,0 +1,25 @@
+{
+  "name": "my-1st-word-counter-app",
+  "version": "1.0.0",
+  "description": "It is a simple word counter app",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publicconfig" : {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.19"
+  }
+}
